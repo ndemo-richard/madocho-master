@@ -1,5 +1,5 @@
 {
-  "name": "djjuniour",
+  "name": "madochowakanairo",
   "version": "0.1.0",
   "engines": {
     "node": "*.x"
@@ -17,6 +17,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
+    "caniuse-lite": "^1.0.30001271",
     "isomorphic-fetch": "^3.0.0",
     "latest": "^0.2.0",
     "n": "^7.5.0",
