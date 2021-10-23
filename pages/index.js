@@ -18,8 +18,6 @@ const Index = () => (
           <div className={styles.show_title}>
         </div>
         <div className={styles.show_page_section}>
-       
-
        <div className={styles.video_outer}>
        <div className={styles.show_video}>
        <ReactPlayer 

@@ -13,12 +13,12 @@ import navButtons from "../config/buttons";
 
 
 const Layout = props => {
-  const appTitle = `MODOCHO WA KANAIRO`;
+  const appTitle = `MaDOCHO WA KANAIRO`;
 
   return (
     <div className={styles.Layout}>
 	  <head>
-	  <title>modocho wa kanairo</title>
+	  <title>madocho wa kanairo</title>
 	  <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	  </head>
 	  <Header appTitle={appTitle} />
