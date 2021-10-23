@@ -1,0 +1,265 @@
+// pages/index.scss
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1d1e23;
+}
+.show_hero {
+  width: 100%;
+  height: 50vh;
+  background-color: #1d1e23;
+}
+.show_page {
+  width: auto;
+  height: 50vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 30, 35, 2),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("/ngumi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .show_page_section {
+    position: relative;
+    top: 50%;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+.show_video {
+  width: 12rem;
+  height: 6rem;
+}
+.grid {
+  width: 100%;
+  position: relative;
+  display: block;
+  margin: auto;
+  padding-left: 8%;
+}
+.card {
+  position: relative;
+  margin-top: 3.7rem;
+  text-decoration: none;
+}
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.floatme {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.about_us {
+  width: 100%;
+  height: 15rem;
+}
+.aboutus_h1 {
+  width: fit-content;
+  margin: auto;
+  font-size: 1.5em;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.about_content {
+  width: fit-content;
+  margin: auto;
+
+  text-align: center;
+}
+/* *
+Stuff for media queries i will be adding them here
+*/
+@media only screen and (min-width: 420px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  //try it
+  .show_hero {
+    width: 100%;
+    height: 500px;
+    background-color: #1d1e23;
+  }
+  .show_page {
+    margin-left: 12rem;
+    width: auto;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(29, 30, 35, 2),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("/ngumi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .show_page_section {
+      position: relative;
+      top: 50%;
+      display: block;
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video_outer {
+    display: inline-block;
+    width: 100%;
+  }
+  .show_video {
+    //background-color: red;
+    background-color: transparent;
+    width: 360px;
+    height: 200px;
+  }
+  .react_player {
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+  }
+  .react_player video {
+    position: relative;
+    left: 0;
+    top: -19%;
+    //width: 400px;
+    transform: none;
+  }
+
+  .clips_show {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    width: 100%;
+    height: 300px;
+  }
+  .line {
+    margin: 4rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    width: auto;
+    height: 1px;
+    border-radius: 10px;
+    background-color: beige;
+  }
+  .about_us {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    width: auto;
+    height: 300px;
+    background-color: #3f3f41;
+  }
+  .aboutus_h1 {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5rem;
+  }
+  .about_content {
+    width: fit-content;
+    margin: auto;
+
+    text-align: center;
+  }
+  .about_img {
+    background-origin: padding-box;
+    background-color: red;
+  }
+  //walaa
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    height: 320px;
+    width: 100%;
+  }
+
+  .card {
+    margin-top: 3.7rem;
+    margin-left: 1rem;
+    flex-basis: 10%;
+    padding: 0rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    //border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .card:hover,
+  .card:focus,
+  .card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+
+  .card h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  //another edit
+  .floatme {
+    position: absolute;
+
+    margin-top: 2rem;
+  }
+}

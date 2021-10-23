@@ -1,0 +1,31 @@
+{
+  "name": "djjuniour",
+  "version": "0.1.0",
+  "engines": {
+    "node": "*.x"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "heroku-postbuild": "npm run build",
+    "test": "echo\"error: no test specified\"&& exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "isomorphic-fetch": "^3.0.0",
+    "latest": "^0.2.0",
+    "n": "^7.5.0",
+    "next": "^10.0.3",
+    "react": "17.0.1",
+    "react-burger-menu": "^3.0.2",
+    "react-dom": "17.0.1",
+    "react-player": "^2.7.0",
+    "sass": "^1.30.0",
+    "styled-components": "^5.2.1"
+  }
+}
