@@ -38,8 +38,9 @@ const Index = () => (
     <div className={styles.clips_show}>
       <h1 id="clips" className={styles.floatme}>Clips</h1>
     
-      <div className={styles.grid}>
-          <a href="" className={styles.card}>
+        <div className={styles.grid}>
+          <div className={styles.card_container}>
+            <a href="" className={styles.card}>
           <div class="video-container">
   <iframe src="https://www.youtube.com/embed/cXi_I2QnRzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -56,6 +57,8 @@ const Index = () => (
   <iframe src="https://www.youtube.com/embed/C-GwwV6hu0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
           </a>
+          </div>
+          
 
           
         </div>
