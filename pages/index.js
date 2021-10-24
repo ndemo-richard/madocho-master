@@ -41,20 +41,20 @@ const Index = () => (
         <div className={styles.grid}>
           <div className={styles.card_container}>
             <a href="" className={styles.card}>
-          <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/cXi_I2QnRzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className={styles.videoContainer}>
+  <iframe src="https://www.youtube.com/embed/cXi_I2QnRzE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
           </a>
 
           <a href="" className={styles.card}>
-         <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/SaVwjDsBxf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div className={styles.videoContainer}>
+  <iframe src="https://www.youtube.com/embed/SaVwjDsBxf0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
           </a>
 
           <a href="" className={styles.card}>
-          <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/C-GwwV6hu0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className={styles.videoContainer}>
+  <iframe src="https://www.youtube.com/embed/C-GwwV6hu0c" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
           </a>
           </div>
